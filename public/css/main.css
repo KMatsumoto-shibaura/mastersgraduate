@@ -1,0 +1,66 @@
+﻿html, body{
+  min-height: 100%;
+  height: 100%;
+}
+
+.fill{
+  height: calc(100vh - 100px);
+}
+
+.panel{
+  height: calc(50vh - 100px);
+}
+
+.left-area{
+  height: calc(50vh - 100px);
+  padding: 0%;
+}
+
+body {
+  padding-top: 60px; /* space for the top nav bar */
+  margin-right: 30px;
+}
+
+#userHubs {
+  overflow: auto;
+  width: 100%;
+  height: calc(100vh - 150px);
+}
+
+#forgeViewer {
+  width: 100%;
+}
+
+#console2{
+  overflow: auto;
+  border-left: solid 1px #5d627b;
+}
+
+#console1{
+  overflow: auto;
+  border-right: solid 1px #5d627b;
+}
+
+#console{
+  padding: 0%;
+}
+
+#console h1{
+  margin: 0%;
+}
+
+#consolearea{
+  padding: 0;
+  margin: 0;
+  height: 25vh;
+  color: #5d627b;
+  background: white;
+  border-top: solid 5px #5d627b;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+
+.consoleclass{
+  margin: 1vh 0;
+  padding: 0 0.5vh;
+  height: 23vh;
+}
